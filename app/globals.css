@@ -1,27 +1,660 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    background-color: #31055a;
+    font-family: sans-serif;
+
+    /* height: 500px; */
+    /* width: 200px; */
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: #17054f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+
+}
+
+.p {
+    color: red;
+}
+
+.ilogo {
+    margin-left: 150px;
+}
+
+.logo2 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 185px;
+    margin-top: -40px;
+    font-weight: 600;
+    font-size: 30px;
+    /* margin-top: ; */
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin: 20px;
+}
+
+ul {
+    margin-left: 500px;
+    margin-top: -90px;
+}
+
+button {
+    height: 35px;
+    width: 130px;
+    background-color: white;
+    margin-left: 130px;
+    margin-top: 25px;
+    border-radius: 100px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e97122;
+    color: white;
+}
+
+ul li a:hover {
+    color: #e97122;
+}
+
+/* ok */
+/* .home{ */
+/* height: 637px; */
+/* width: 100vw;  */
+/* background-color: #31055a; */
+/* top: 0; */
+/* left: 0; */
+/* right: 0;  */
+/* z-index: 1000; */
+/* box-sizing: border-box; */
+/* margin-left: -8px; */
+
+
+/* } */
+/* .ok1{
+    margin-top: 70px;
+    color: rgb(235, 10, 10);
+} */
+.home2 {
+    height: 637px;
+    width: 100vw;
+    /* background-color: #31055a; */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+    margin-left: -8px;
+
+
+}
+
+.col1 {
+    color: white;
+}
+
+.col2 {
+    color: #e97122;
+}
+
+.ok2 {
+    margin-top: 70px;
+    color: rgb(235, 10, 10);
+
+}
+
+.home2 h3 {
+    margin-left: 170px;
+    margin-top: px;
+
+}
+
+.home2 {
+    margin-top: 225px;
+    line-height: 25px;
+}
+
+.pera {
+    color: white;
+    width: 450px;
+    margin-left: 170px;
+    margin-top: -25px;
+}
+
+.logo2 {
+    width: 10px;
+}
+
+.logo2:hover {
+    color: #2164b3;
+    cursor: pointer;
+}
+
+.contactbtn {
+    margin-left: 38px;
+    margin-top: 40px;
+}
+
+.pro {
+    margin-left: 800px;
+    margin-top: -420px;
+}
+
+.about1 {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.about1 img {
+    border-radius: 15px;
+}
+
+.aboutlogo {
+    color: white;
+    margin-top: -410px;
+    margin-left: 450px;
+}
+
+.aboutpera {
+    color: white;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+
+.aboutpera2 {
+    color: white;
+    width: 500px;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+
+.aboutbtn {
+    margin-left: 320px;
+}
+
+.portfolio {
+    margin-top: 150px;
+    margin-left: 100px;
+
+}
+
+.portfolio img {
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.cardback {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 200px;
+}
+
+.cardback:hover {
+    cursor: pointer;
+    background-color: rgb(58, 61, 62);
+    color: white;
+}
+
+.cardimg img {
+    margin-left: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.server {
+    display: inline-block;
+}
+
+.card21 {
+
+    margin-top: -600px;
+    margin-left: 370px;
+}
+
+.card22 {
+
+    margin-top: -600px;
+    margin-left: 750px;
+}
+
+.card23 {
+    margin-top: -130px;
+}
+
+.card24 {
+
+    margin-top: -600px;
+    margin-left: 750px;
+}
+
+.card25 {
+
+    margin-top: -600px;
+    margin-left: 370px;
+}
+
+.cardheadinges {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardpera {
+    text-align: center;
+    margin-top: -30px;
+
+}
+
+.btnbook {
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+.cardback1 {
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 110px;
+
+}
+
+.cardback1:hover {
+    background-color: #0450d5;
+    cursor: pointer;
+    color: white;
+}
+
+.cardimg2 {
+    text-align: center;
+}
+
+.home5 {
+    margin-top: 215px;
+}
+
+.card52 {
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.card53 {
+    margin-left: 900px;
+    margin-top: -250px;
+}
+
+.card55 {
+    margin-left: 900px;
+    margin-top: -250px;
+}
+
+.card56 {
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.card54 {
+    margin-top: 100px;
+}
+
+input {
+    width: 550px;
+    height: 35px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.938);
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.short input {
+    width: 260px;
+}
+
+.container {
+    margin-left: 800px;
+}
+
+.textbox {
+    margin-top: -25px;
+}
+
+.textbox input {
+    height: 150px;
+    font-size: 15px;
+}
+
+.submitbtn input {
+    width: 200px;
+    margin-left: 200px;
+    margin-top: -200px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: greenyellow;
+    color: #e97122;
+}
+
+.submitbtn input:hover {
+    cursor: pointer;
+    background-color: #e97122;
+    color: white;
+
+
+}
+
+.formhead {
+    color: white;
+    margin-left: 200px;
+}
+
+.ok8 {
+    margin-top: 100px;
+}
+
+.noti {
+    color: white
+}
+
+
+.submitbtn {
+    margin-left: 120px;
+    margin-top: -40px;
+}
+
+.error {
+    color: white;
+    margin-top: -60px;
+    margin-right: 200px;
+
+}
+
+/* Resposive  */
+@media only screen and (max-width: 600px) {
+    .ilogo {
+        margin-left: 5px;
+        width: 40px;
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .logo2 {
+        margin-left: 30px;
+    }
+
+    ul li {
+        list-style: none;
+
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        /* float: left; */
+        margin: 10px;
+        font-size: 12px;
+        color: #e97122;
+        text-align: center;
+    }
+
+    ul {
+        margin-top: -30px;
+        margin-left: -40px;
+    }
+
+    .btn88 button {
+        margin-left: -120px;
+    }
+
+    .btn88 {
+        margin-top: -80px;
+    }
+
+    button {
+        height: 30px;
+        width: 110px;
+        background-color: white;
+        margin-left: 130px;
+        margin-top: 25px;
+        border-radius: 100px;
+        border: none;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .col1 {
+        color: white;
+    }
+
+    .col2 {
+        color: #e97122;
+
+    }
+
+    .ok2 {
+        margin-top: 70px;
+        color: rgb(235, 10, 10);
+
+    }
+
+    .home2 h3 {
+        margin-left: 10px;
+        margin-top: 300px;
+        font-size: 15px;
+
+    }
+
+    .home2 {
+        margin-top: 225px;
+        line-height: 25px;
+    }
+
+    .pera {
+        color: white;
+        width: 350px;
+        margin-left: 10px;
+        margin-top: -35px;
+    }
+
+    .logo2:hover {
+        color: #2164b3;
+        cursor: pointer;
+    }
+
+    .contactbtn {
+        margin-left: -120px;
+        margin-top: -20px;
+
+    }
+
+    .pro {
+        margin-left: 290px;
+        margin-top: -480px;
+
+    }
+
+    .pro img {
+        width: 200px;
+        height: 300px;
+    }
+
+    /* ok */
+    .about1 {
+        margin-top: 180px;
+        margin-left: 10px;
+    }
+
+    .about1 img {
+        border-radius: 15px;
+        width: 150px;
+        height: 250px;
+    }
+
+    .aboutlogo {
+        color: white;
+        margin-top: -250px;
+        margin-left: 160px;
+        font-size: 18px;
+    }
+
+    .aboutpera {
+        /* color: white;
+        width: 500px;
+        margin-left: 160px;
+        margin-top: -20px; */
+        display: none;
+    }
+
+    .aboutpera2 {
+        color: white;
+        width: 180px;
+        margin-left: 160px;
+        margin-top: -30px;
+    }
+
+    .aboutbtn {
+        margin-left: 30px;
+        margin-top: -35px;
+    }
+
+    /* ok */
+    .cardback {
+        width: 160px;
+        margin-left: 10px;
+    }
+
+    .cardimg img {
+        margin-left: 26px;
+        border-radius: 100px;
+        margin-top: 20px;
+    }
+
+    .btnbook {
+        margin-left: -105px;
+        margin-top: -52px;
+    }
+    /* ok */
+    .card21 {
+
+        margin-top: -600px;
+        margin-left: 180px;
+    }
+    
+    .card22 {
+    
+        margin-top: -160px;
+        margin-left: 5px;
+    }
+    
+    .card23 {
+        margin-top: -600px;
+        margin-left: 180px;
+    }
+    
+    .card24 {
+    
+        margin-top: -180px;
+        margin-left: 10px;
+    }
+    
+    .card25 {
+    
+        margin-top: -600px;
+        margin-left: 180px;
+    }
+
+    /* all is well */
+
+    .card52 {
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    
+    .card53 {
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    
+    .card55 {
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    
+    .card56 {
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    
+    .card54 {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .cardback1 {
+        height: 200px;
+        width: 300px;
+        background-color: white;
+        border-radius: 15px;
+        margin-left: 30px;
+    
+    }
+    .portfolio {
+        margin-top: 150px;
+        margin-left: 5px;
+    
+    }
+    input {
+        width: 300px;
+        height: 35px;
+        border-radius: 15px;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.938);
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    
+    .short input{
+        width: 300px;
+       
+    }
+    .short2{
+        margin-left: 0px;
+    }
+    /* .home2{
+        margin-left: -800px;
+    } */
+    .submitbtn {
+        margin-left: -730px;
+    }
+    .formhead {
+        color: white;
+        margin-left: -700px;
+    }
+    input{
+        margin-left: -800px;
+    }
 }
